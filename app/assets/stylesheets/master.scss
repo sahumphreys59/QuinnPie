@@ -1,0 +1,30 @@
+@import "bootstrap";
+
+
+body {
+	background: url('yumcookie.jpeg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar {
+	background: #99078B;
+	-moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 2px 2px 3px #079980;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.nav-item {
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.navbar .nav-item .nav-link {
+	color: white;
+}
