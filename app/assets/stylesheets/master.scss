@@ -1,8 +1,9 @@
 @import "bootstrap";
+@import "https://fonts.googleapis.com/css?family=Raleway&display=swap";
 
 
 body {
-	background: url('yumcookie.jpeg') no-repeat center center fixed;
+	
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -27,4 +28,6 @@ body {
 
 .navbar .nav-item .nav-link {
 	color: white;
+	font-family: 'Raleway', sans-serif;
+	padding: 40px;
 }
