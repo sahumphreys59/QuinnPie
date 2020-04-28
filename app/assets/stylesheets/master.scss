@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import "https://fonts.googleapis.com/css?family=Raleway&display=swap";
+@import "https://fonts.googleapis.com/css?family=Pacifico&display=swap";
 
 
 body {
@@ -11,7 +12,7 @@ body {
 }
 
 .navbar {
-	background: #99078B;
+	background: url('watercolor.jpg');
 	-moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
   box-shadow: 2px 2px 3px #079980;
@@ -21,13 +22,54 @@ body {
   background-size: cover;
 }
 
+.navbar-brand {
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+}
+
 .nav-item {
 	font-size: 25px;
 	font-weight: 600;
 }
 
 .navbar .nav-item .nav-link {
-	color: white;
+	color: teal;
 	font-family: 'Raleway', sans-serif;
 	padding: 40px;
 }
+
+.dropdown-item {
+	color: teal;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	line-height: 1;
+}
+
+.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
+  max-height: 550px;
+  width: 100%;
+}
+
+.carousel-item-prev {
+  display: block;
+}
+
+.carousel {
+	box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.mail {
+	background: purple;
+}
+
+.mail h2, h3, p {
+	color: white;
+}
+

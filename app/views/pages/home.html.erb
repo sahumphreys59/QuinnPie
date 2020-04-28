@@ -1,20 +1,19 @@
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <%= image_tag('yumcookie.jpeg')%>
+      <%= image_tag 'yumcookie.jpeg', class: "img-fluid" %>
     </div>
     <div class="carousel-item">
-      <%= image_tag('pastry.jpeg')%>
+      <%= image_tag 'pastry.jpeg', class: "img-fluid" %>
     </div>
     <div class="carousel-item">
-      <%= image_tag('sunflowers.jpeg')%>
+      <%= image_tag 'sunflowers.jpeg', class: "img-fluid" %>
     </div>
     <div class="carousel-item">
-      <%= image_tag('pie.jpeg')%>
+      <%= image_tag 'pie.jpeg', class: "img-fluid" %>
     </div>
     <div class="carousel-item">
-      <%= image_tag('cupcake.jpeg')%>
+      <%= image_tag 'cupcake.jpeg', class: "img-fluid" %>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -26,3 +25,37 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+<br/>
+<br/>
+
+<!-- <div class="home-info">
+  <div class="row">
+    <div class="col-lg-6 col-sm-12">
+      <h3 align="center">Cookies, Cakes, Pies; Oh My!</h3>
+    </div>
+    <div class="col-lg-6 col-sm-12">
+      <h3 align="center">Get lost in Flowers!</h3>
+    </div>
+  </div>   
+</div> --> 
+
+<div class="mail">
+  <br/>
+  <br/>
+  <div class="row col-8 offset-3">
+    <div class="col-lg-4 col-sm-12 mb-3">
+      <br/>
+      <h2>Join Our Mailing List</h2>
+      <p>Join the family! Stay up to date on new seasonal flavors, delicious recipes and offers.</p>
+      <br/>
+      <h4 align="center"><%= link_to 'Subscribe', '#', :style=> 'color:#FFFFFF; border-style: solid;' %></h4>
+    </div>
+    <div class="col-lg-4 col-sm-12 mb-3">
+      <%= image_tag 'mail2.png', class: 'img-fluid' %>
+    </div>
+  </div>
+  <br/>
+  <br/>
+</div>      
+
