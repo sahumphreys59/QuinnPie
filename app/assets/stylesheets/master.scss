@@ -9,10 +9,14 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
 }
 
+.home {
+	background:#2C3131;
+}
 .navbar {
-	background: url('watercolor.jpg');
+	background: #CE7CB6;
 	-moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
   box-shadow: 2px 2px 3px #079980;
@@ -24,7 +28,7 @@ body {
 
 .navbar-brand {
 	font-family: 'Pacifico', cursive;
-	font-size: 55px;
+	font-size: 65px;
 }
 
 .nav-item {
@@ -33,7 +37,7 @@ body {
 }
 
 .navbar .nav-item .nav-link {
-	color: teal;
+	color: white;
 	font-family: 'Raleway', sans-serif;
 	padding: 40px;
 }
@@ -64,9 +68,13 @@ body {
 .carousel {
 	box-shadow: 0px 3px 8px #2a2a2a;
 }
+.info {
+	background: teal;
+}
 
 .mail {
 	background: purple;
+	box-shadow: 0px 3px 8px #2a2a2a;
 }
 
 .mail h2, h3, p {
@@ -75,8 +83,9 @@ body {
 
 .footer {
 	background: teal;
+	color: white;
 }
 
 .social-button {
-	padding: 30px;
+	padding: 50px;
 }
